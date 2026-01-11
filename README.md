@@ -5,12 +5,12 @@
 <h1 align="center">Mal</h1>
 
 <p align="center">
-  <b>Software Engineer • Backend • Systems</b>
+  <b>Software Engineer • Finance • Speed</b>
 </p>
 
 <p align="center">
   <img
-    src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif"
+    src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2h1M2kyanRsMTM0dTJkcTJ3Y2RyM3NmMTV4eGI3ZW15YWc2YnVrNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pVGsAWjzvXcZW4ZBTE/giphy.gif"
     width="480"
     alt="Purple aesthetic banner"
   />
@@ -24,13 +24,13 @@ I design and build **backend systems that hold up under real use**.
 My work prioritizes **clarity, correctness, and long-term maintainability** over novelty.
 
 I care about:
-- Systems that are understandable by humans
+- Code being simple and easily understood
 - Code that fails loudly instead of silently
 - Solving the *right* problem before optimizing the wrong one
 
 ---
 
-## 🟣 Tech I Use
+## 🟣 Tech I Use (Still just a bunch of symbols, will update later)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-6A5ACD?style=for-the-badge&logo=python&logoColor=white" />
