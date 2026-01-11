@@ -27,7 +27,7 @@
 <p align="center">
   <img
     src="https://i.pinimg.com/originals/fe/d3/02/fed302f8272994d79fa3e9ef7c2b17da.gif"
-    width="480"
+    width="1000"
     alt="Dark Souls Bonfire GIF"
   />
 </p>
@@ -72,7 +72,7 @@ I care about:
 <p align="center">
   <img
     src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F06%2Fa8%2F5b%2F06a85b703ccc50fcc2214bac56214f48.gif&f=1&nofb=1&ipt=9faf285622199f8e3391afea362731abe2844ed59893d674011a6a20e696e65f"
-    width="480"
+    width="1000"
     alt="Dark Souls Cathedral Bonfire GIF"
   />
 </p>
