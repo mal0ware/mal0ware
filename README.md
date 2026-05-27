@@ -5,7 +5,7 @@
 <h1 align="center">Mal0</h1>
 
 <p align="center">
-  Computer Science Major · NJIT
+  Computer Science · NJIT
   &nbsp;&nbsp;|&nbsp;&nbsp;
   <a href="https://linkedin.com/in/mal0ware">LinkedIn</a>
   &nbsp;·&nbsp;
@@ -20,8 +20,3 @@
   />
 </p>
 
----
-
-Efficiency is king.
-Building personal projects.
-I keep things simple.
