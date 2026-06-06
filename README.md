@@ -65,15 +65,6 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&amp;color=7800F0&amp;height=3" alt="" />
 
-<!-- ──────────────────────── TOOLKIT ──────────────────────────────── -->
-<h3 align="center"><code>// tools i reach for</code></h3>
-
-<p align="center"><sub>Python-first, and whatever the problem actually needs.</sub></p>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,sklearn,sqlite,git,github,linux,bash,vscode&amp;perline=8" alt="Python, scikit-learn, SQLite, Git, GitHub, Linux, Bash, VS Code" />
-</div>
-
 <!-- ─────────────────────────── CLOSING ───────────────────────────── -->
 <h3 align="center">&ldquo; for the love of the game. &rdquo;</h3>
 
