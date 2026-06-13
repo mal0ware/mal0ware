@@ -5,7 +5,7 @@
 
 <!-- ───────────────────────────── BANNER ──────────────────────────── -->
 <div align="center">
-  <img src="https://i.pinimg.com/originals/fe/d3/02/fed302f8272994d79fa3e9ef7c2b17da.gif" width="840" alt="A bonfire flickers in the dark — rest a while, traveler." />
+  <img src="./assets/banner.gif" width="840" alt="banner" />
 </div>
 
 <!-- ──────────────────────── NAME · TAGLINE ───────────────────────── -->
