@@ -1,0 +1,87 @@
+<svg width="840" height="240" viewBox="0 0 840 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hermes — private event-driven trading platform">
+  <defs>
+    <linearGradient id="scan" x1="0" y1="0" x2="840" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7800F0" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#A855F7" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#7800F0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="0" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7800F0" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#7800F0" stop-opacity=".25"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="838" height="238" rx="12"/></clipPath>
+  </defs>
+
+  <!-- card -->
+  <rect x="1" y="1" width="838" height="238" rx="12" fill="#0A0611"/>
+  <rect x="1" y="1" width="838" height="238" rx="12" stroke="url(#edge)" stroke-width="1.5"/>
+
+  <g clip-path="url(#card)">
+    <!-- faint grid -->
+    <g stroke="#A855F7" stroke-opacity=".05">
+      <path d="M0 60H840M0 120H840M0 180H840"/>
+      <path d="M120 0V240M240 0V240M360 0V240M480 0V240M600 0V240M720 0V240"/>
+    </g>
+
+    <!-- sweeping scan line -->
+    <rect x="0" y="0" width="840" height="2" fill="url(#scan)">
+      <animate attributeName="y" values="-2;242;-2" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- title -->
+    <text x="36" y="58" font-family="ui-monospace,'Cascadia Mono','Courier New',monospace" font-size="34" font-weight="700" fill="#F0EAFB" letter-spacing="6">HERMES</text>
+    <text x="36" y="82" font-family="ui-monospace,'Cascadia Mono','Courier New',monospace" font-size="12" fill="#A855F7" letter-spacing="3">EVENT-DRIVEN TRADING PLATFORM &#183; PYTHON / RUST / TYPESCRIPT</text>
+
+    <!-- classification stamp -->
+    <g>
+      <rect x="576" y="32" width="228" height="34" rx="4" fill="none" stroke="#C77DFF" stroke-width="1.2" stroke-dasharray="5 4"/>
+      <circle cx="596" cy="49" r="4" fill="#A855F7">
+        <animate attributeName="opacity" values="1;.15;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="610" y="53" font-family="ui-monospace,'Cascadia Mono','Courier New',monospace" font-size="12" fill="#C77DFF" letter-spacing="1.5">PRIVATE &#183; WRITEUP ON REQUEST</text>
+    </g>
+
+    <!-- metrics -->
+    <g font-family="ui-monospace,'Cascadia Mono','Courier New',monospace">
+      <g fill="#F0EAFB" font-size="24" font-weight="700">
+        <text x="36"  y="140">316</text>
+        <text x="171" y="140">~90</text>
+        <text x="306" y="140">4,500</text>
+        <text x="441" y="140">+9.2%</text>
+        <text x="576" y="140">&#8805;0.95</text>
+        <text x="711" y="140">10&#8211;20&#215;</text>
+      </g>
+      <g fill="#8E7DAB" font-size="10" letter-spacing="1.5">
+        <text x="36"  y="160">EVENT TYPES</text>
+        <text x="171" y="160">SERVICES</text>
+        <text x="306" y="160">TESTS IN CI</text>
+        <text x="441" y="160">LIVE IPO FILL</text>
+        <text x="576" y="160">DSR GATE</text>
+        <text x="711" y="160">RUST PARSER</text>
+      </g>
+    </g>
+
+    <!-- lane status row -->
+    <g font-family="ui-monospace,'Cascadia Mono','Courier New',monospace" font-size="11" letter-spacing="1.5">
+      <text x="36" y="205" fill="#8E7DAB">LANES</text>
+      <g>
+        <rect x="92" y="192" width="62" height="20" rx="10" fill="#7800F0" fill-opacity=".18" stroke="#7800F0" stroke-opacity=".6"/>
+        <text x="106" y="206" fill="#C77DFF">PAPER</text>
+      </g>
+      <g>
+        <rect x="162" y="192" width="82" height="20" rx="10" fill="#7800F0" fill-opacity=".18" stroke="#7800F0" stroke-opacity=".6"/>
+        <text x="176" y="206" fill="#C77DFF">OBSERVE</text>
+        <circle cx="236" cy="202" r="3" fill="#A855F7">
+          <animate attributeName="opacity" values="1;.2;1" dur="2.2s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+      <g>
+        <rect x="252" y="192" width="152" height="20" rx="10" fill="none" stroke="#8E7DAB" stroke-opacity=".5" stroke-dasharray="3 3"/>
+        <text x="266" y="206" fill="#8E7DAB">LIVE &#183; FAIL-CLOSED</text>
+      </g>
+      <text x="804" y="206" text-anchor="end" fill="#5E4E7A">SPINE ONLINE
+        <animate attributeName="opacity" values=".9;.4;.9" dur="3s" repeatCount="indefinite"/>
+      </text>
+    </g>
+  </g>
+</svg>
