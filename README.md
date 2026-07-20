@@ -81,7 +81,7 @@
 <h3 align="center"><code>// also shipped</code></h3>
 
 <p align="center">
-  <a href="https://github.com/mal0ware/Cerebras-Protocol"><b>Cerebras-Protocol</b></a> — live IPO auction execution, filled at the Nasdaq cross, built in 7 days &nbsp;·&nbsp;
+  <b>Cerebras-Protocol</b> (private) — live IPO auction execution, filled at the Nasdaq cross, built in 7 days &nbsp;·&nbsp;
   <a href="https://github.com/mal0ware/Stock-Analyzer"><b>Stock-Analyzer</b></a> — from-scratch gradient boosting within ~1% of scikit-learn, 3-OS installers<br/>
   <a href="https://github.com/mal0ware/Threatscope"><b>Threatscope</b></a> — self-hosted SIEM-lite threat intel &nbsp;·&nbsp;
   <a href="https://github.com/mal0ware/ytmerge"><b>ytmerge</b></a> — concurrent C++20 transcript CLI
