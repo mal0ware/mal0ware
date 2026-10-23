@@ -12,7 +12,7 @@
 <!-- ──────────────────────── NAME · TAGLINE ───────────────────────── -->
 <div align="center">
   <a href="https://github.com/mal0ware">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=A855F7&center=true&vCenter=true&width=640&height=70&lines=Mal0;Agentic+systems+%26+applied+AI;for+the+love+of+the+game." alt="Mal0 — agentic systems and applied AI — for the love of the game." />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=A855F7&center=true&vCenter=true&width=640&height=70&lines=Mal0;Agentic+systems+%26+applied+AI;for+the+love+of+the+game." alt="Mal0: agentic systems and applied AI, for the love of the game." />
   </a>
 </div>
 
@@ -30,7 +30,7 @@
 
 <!-- ──────────────────────────── BIO ──────────────────────────────── -->
 <p align="center">
-  I build agentic systems and the infrastructure beneath them — trading platforms, AI agents, world models, developer tools — and I learn a field by shipping something real inside it. Hand-rolled, tested, owned.
+  I build agentic systems and the infrastructure under them: trading platforms, AI agents, world models, developer tools. I learn a field by shipping something real in it. I write it from scratch and test it.
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=7800F0&height=3" alt="" />
@@ -40,18 +40,18 @@
 
 <div align="center">
   <a href="https://mal0ss.com/">
-    <img src="./assets/hermes.svg" width="840" alt="Hermes — private event-driven trading platform: 316 event types, ~90 services, 4,500 tests, +9.2% live IPO fill, DSR ≥ 0.95 promotion gate, 10–20× Rust parser speedup" />
+    <img src="./assets/hermes.svg" width="840" alt="Hermes, a private event-driven trading platform: 316 event types, ~90 services, 4,500 tests, +9.2% live IPO fill, DSR ≥ 0.95 promotion gate, 10 to 20× Rust parser speedup" />
   </a>
 </div>
 
 <table align="center">
   <tr>
     <td align="right" width="160"><a href="https://github.com/mal0ware/Singularity"><b>Singularity</b></a></td>
-    <td>Real-time black-hole renderer in C++20 — one header-only physics core, four GPU backends (Metal · Vulkan · WebGPU · CUDA), general relativity verified in CI. <a href="https://mal0ware.github.io/Singularity/"><b>Run it in your browser →</b></a></td>
+    <td>Real-time black-hole renderer in C++20. One header-only physics core drives four GPU backends (Metal, Vulkan, WebGPU, CUDA), and CI checks the general relativity math. <a href="https://mal0ware.github.io/Singularity/"><b>Run it in your browser</b></a></td>
   </tr>
   <tr>
     <td align="right"><a href="https://doi.org/10.5281/zenodo.19688805"><b>Beating the Market</b></a></td>
-    <td>Published working paper: the probability of active-fund outperformance over 97 years of S&amp;P 500 data. Every claim reproduces from a seed-pinned function call, re-verified by CI on every push. <a href="https://github.com/mal0ware/sp500-active-management-analysis">Repo</a> · <a href="https://doi.org/10.5281/zenodo.19688805">DOI</a></td>
+    <td>Published working paper on the probability that an active fund beats the S&amp;P 500, using 97 years of data. Every number in it reproduces from a seed-pinned function call, and CI re-checks the headline results on every push. <a href="https://github.com/mal0ware/sp500-active-management-analysis">Repo</a> · <a href="https://doi.org/10.5281/zenodo.19688805">DOI</a></td>
   </tr>
 </table>
 
@@ -63,11 +63,11 @@
 <table align="center">
   <tr>
     <td align="right" width="160"><a href="https://github.com/mal0ware/Orpheus"><b>Orpheus</b></a></td>
-    <td>MCP server bridging LLM agents to the REAPER digital audio workstation — hardened cross-language file-IPC, executable-spec test harness, first live DAW contact passed.</td>
+    <td>MCP server that connects LLM agents to the REAPER digital audio workstation over hardened cross-language file IPC. It has an executable-spec test harness and has passed its first live session against REAPER.</td>
   </tr>
   <tr>
     <td align="right"><a href="https://github.com/mal0ware/Kaizen"><b>Kaizen</b></a></td>
-    <td>Always-on, self-improving personal AI agent — model routing, persistent memory, approval-gated self-modification.</td>
+    <td>Always-on personal AI agent that improves itself. It routes between models and keeps a persistent memory, and any change it makes to itself needs my approval.</td>
   </tr>
   <tr>
     <td align="right"><a href="https://github.com/mal0ware/Oneiros"><b>Oneiros</b></a></td>
@@ -81,10 +81,10 @@
 <h3 align="center"><code>// also shipped</code></h3>
 
 <p align="center">
-  <b>Cerebras-Protocol</b> (private) — live IPO auction execution, filled at the Nasdaq cross, built in 7 days &nbsp;·&nbsp;
-  <a href="https://github.com/mal0ware/Stock-Analyzer"><b>Stock-Analyzer</b></a> — from-scratch gradient boosting within ~1% of scikit-learn, 3-OS installers<br/>
-  <a href="https://github.com/mal0ware/Threatscope"><b>Threatscope</b></a> — self-hosted SIEM-lite threat intel &nbsp;·&nbsp;
-  <a href="https://github.com/mal0ware/ytmerge"><b>ytmerge</b></a> — concurrent C++20 transcript CLI
+  <b>Cerebras-Protocol</b> (private): live IPO auction execution that filled at the Nasdaq cross, built in 7 days &nbsp;·&nbsp;
+  <a href="https://github.com/mal0ware/Stock-Analyzer"><b>Stock-Analyzer</b></a>: gradient boosting written from scratch, within ~1% of scikit-learn, with installers for macOS, Windows and Linux<br/>
+  <a href="https://github.com/mal0ware/Threatscope"><b>Threatscope</b></a>: self-hosted, SIEM-lite threat intel &nbsp;·&nbsp;
+  <a href="https://github.com/mal0ware/ytmerge"><b>ytmerge</b></a>: concurrent C++20 transcript CLI
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=7800F0&height=3" alt="" />
