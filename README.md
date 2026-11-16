@@ -89,7 +89,7 @@
 <table align="center">
   <tr>
     <td align="right" width="160"><a href="https://doi.org/10.5281/zenodo.19688805"><b>Beating the Market</b></a></td>
-    <td>Sole-author working paper on how likely an actively managed fund is to beat the S&amp;P 500, using 97 years of total returns (1928 to 2024). Even a top-quartile track record implies only a 26% chance of real skill, against a 10% base rate. Every number in the paper reproduces from a seed-pinned function call, and CI re-checks the headline results on every push. <a href="https://doi.org/10.5281/zenodo.19688805">DOI</a> · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6625558">SSRN</a> · <a href="https://github.com/mal0ware/sp500-active-management-analysis">Repo</a></td>
+    <td>Sole-author paper on how likely an actively managed fund is to beat the S&amp;P 500, using 97 years of total returns (1928 to 2024). Even a top-quartile track record implies only a 26% chance of real skill, against a 10% base rate. Every number in the paper reproduces from a seed-pinned function call, and CI re-checks the headline results on every push. <a href="https://doi.org/10.5281/zenodo.19688805">DOI</a> · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6625558">SSRN</a> · <a href="https://github.com/mal0ware/sp500-active-management-analysis">Repo</a></td>
   </tr>
   <tr>
     <td align="right"><b>SocialX Lab, NJIT</b></td>
