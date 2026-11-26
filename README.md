@@ -2,7 +2,7 @@
 <!--                        MAL0 · PROFILE README                       -->
 <!--   Accent: #7800F0 (120,0,240) · highlights #A855F7 / #C77DFF       -->
 <!--   Layout: flagship → selected projects → research → shipped →      -->
-<!--   activity. Facts last checked against the repos 2026-10-26.       -->
+<!--   activity. Facts last checked against the repos 2026-11-26.       -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
 <!-- ───────────────────────────── BANNER ──────────────────────────── -->
@@ -46,7 +46,11 @@
 </div>
 
 <p align="center">
-  Hermes is a Python asyncio engine built on a typed event spine. Rust handles the order book and SEC filing parsing, and the desktop cockpit is Tauri + SolidJS. It has traded one IPO opening cross live (+9.2%). A strategy moves toward real money only by passing statistical tests (Deflated Sharpe ratio of at least 0.95, plus PSR and PBO), and the live lane stays off unless three separate switches are set.
+  Hermes is a Python asyncio engine built on a typed event spine of about 270 event types. A workspace of 13 Rust crates holds the order book and the SEC filing parser, and the desktop cockpit is Tauri + SolidJS. It runs every day on my own PC in observe and practice modes.
+</p>
+
+<p align="center">
+  It has made money once. On 12 June 2026 it bought 41 shares of the SpaceX IPO at $150 in Nasdaq's opening auction, and I sold them by hand at about $163.80, a gain of $566 (+9.2%). That is one trade, so it shows the execution works and nothing more. No strategy has yet passed the tests Hermes requires before it may trade real money by itself (a Deflated Sharpe ratio of at least 0.95, plus PSR and PBO), and that lane is locked in code until one does.
 </p>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=7800F0&height=3" alt="" />
@@ -64,8 +68,16 @@
     <td>MCP server that lets Claude or any MCP client work inside a live REAPER session. It analyzes audio you own (tempo, key, chords, stems, lyrics) and writes tracks, MIDI and FX, asking before each change. A Lua bridge inside REAPER talks to the Python server over hardened file IPC, and it has been verified live on REAPER 7.78 and 7.83.</td>
   </tr>
   <tr>
+    <td align="right"><a href="https://github.com/mal0ware/agora"><b>agora</b></a></td>
+    <td>Limit order book and matching engine in Rust that rebuilds a full Nasdaq trading day from the exchange's own ITCH 5.0 messages. It replays 268.7 million messages for 8,906 stocks in 34.2 seconds on one core, about 7.9 million messages a second, and the share ledger balances exactly at the close.</td>
+  </tr>
+  <tr>
+    <td align="right"><a href="https://github.com/mal0ware/procrustes"><b>procrustes</b></a></td>
+    <td>Tools that check whether a backtest was stretched to fit: the deflated Sharpe ratio, the probability of backtest overfitting, purged cross-validation and multiple-testing adjustments. On a real family of 118 correlated trend rules with no edge, the deflated Sharpe ratio passed a winner 0.7% of the time, and it caught a planted Sharpe ratio of 1 only 11% of the time.</td>
+  </tr>
+  <tr>
     <td align="right"><a href="https://github.com/mal0ware/Oneiros"><b>Oneiros</b></a></td>
-    <td>Learned latent world model that an agent plans with over MCP. It predicts the next latent state JEPA-style, with no pixel reconstruction, and plans in latent space with model-predictive control. The planner reaches the goal 95% of the time, against 15 to 20% for random actions. The whole thing trains in about 20 seconds on a CPU.</td>
+    <td>Learned latent world model that an agent plans with over MCP. It predicts the next latent state JEPA-style, with no pixel reconstruction, and plans in latent space with model-predictive control. The planner reaches the goal 95% of the time, against 20% for random actions. The whole thing trains in about 20 seconds on a CPU.</td>
   </tr>
   <tr>
     <td align="right"><a href="https://github.com/mal0ware/Kaizen"><b>Kaizen</b></a></td>
@@ -76,8 +88,44 @@
     <td>Claude Code plugin and standalone CLI for YouTube. Share a link and Claude gets a timestamped transcript, search results, or an mp4/m4a download. Standard-library Python with no API keys; it fetches yt-dlp and keeps it updated on its own.</td>
   </tr>
   <tr>
-    <td align="right"><a href="https://github.com/mal0ware/ytmerge"><b>ytmerge</b></a></td>
+    <td align="right"><a href="https://github.com/mal0ware/Kiroku"><b>Kiroku</b></a></td>
     <td>Paste any text containing YouTube links and get every transcript merged onto your clipboard, or the video and audio files. A concurrent C++20 CLI (parallel workers, proxy rotation, a 7-day cache) plus a local web UI that can pull in your open YouTube tabs through a companion browser extension.</td>
+  </tr>
+</table>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=7800F0&height=3" alt="" />
+
+<!-- ──────────────────────── QUANT REPLICATIONS ───────────────────── -->
+<h3 align="center"><code>// quant replications</code></h3>
+
+<p align="center">
+  Fourteen more small repositories in the same form as procrustes. Each takes a paper or a claim, tests it on free public data, and reports what did not replicate.
+</p>
+
+<table align="center">
+  <tr>
+    <td align="right" width="160"><b>Microstructure</b></td>
+    <td><a href="https://github.com/mal0ware/undertow">undertow</a>: order-flow imbalance (Cont, Kukanov and Stoikov) and an Avellaneda-Stoikov quoter replayed on five days of Binance BTCUSDT perpetual data</td>
+  </tr>
+  <tr>
+    <td align="right"><b>Options</b></td>
+    <td><a href="https://github.com/mal0ware/triptych">triptych</a>: pricing by closed form, binomial tree and Monte Carlo, with American options by Longstaff-Schwartz · <a href="https://github.com/mal0ware/meniscus">meniscus</a>: arbitrage-free SVI surfaces and a Heston calibration study · <a href="https://github.com/mal0ware/hedgerow">hedgerow</a>: delta hedging with transaction costs against deep hedging on the same simulated paths</td>
+  </tr>
+  <tr>
+    <td align="right"><b>Portfolios and risk</b></td>
+    <td><a href="https://github.com/mal0ware/occam">occam</a>: mean-variance, shrinkage, hierarchical risk parity and Black-Litterman against the 1/N portfolio (DeMiguel, Garlappi and Uppal 2009) · <a href="https://github.com/mal0ware/static">static</a>: random matrix cleaning of correlation matrices · <a href="https://github.com/mal0ware/canary">canary</a>: VaR and expected shortfall backtests, GARCH against HAR · <a href="https://github.com/mal0ware/ballast">ballast</a>: volatility-managed portfolios (Moreira and Muir 2017) and the out-of-sample critique</td>
+  </tr>
+  <tr>
+    <td align="right"><b>Time series</b></td>
+    <td><a href="https://github.com/mal0ware/hindsight">hindsight</a>: Hamilton filter against Kim smoother, with the look-ahead gain in a regime strategy measured · <a href="https://github.com/mal0ware/tenor">tenor</a>: PCA of US Treasury yields and Diebold-Li forecasts against a random walk</td>
+  </tr>
+  <tr>
+    <td align="right"><b>Empirical studies</b></td>
+    <td><a href="https://github.com/mal0ware/quorum">quorum</a>: insider cluster buys on the SEC's insider transaction data · <a href="https://github.com/mal0ware/plumbline">plumbline</a>: calibration and favourite-longshot bias in prediction markets · <a href="https://github.com/mal0ware/agon">agon</a>: multi-agent LLM debate against single-model baselines on financial-filing questions, at equal cost</td>
+  </tr>
+  <tr>
+    <td align="right"><b>Tools</b></td>
+    <td><a href="https://github.com/mal0ware/coroner">coroner</a>: command-line autopsy for a trade log (permutation test, split halves, leave-out of the best trades, cost share)</td>
   </tr>
 </table>
 
